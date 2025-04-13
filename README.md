@@ -213,29 +213,32 @@ def main():
 main()
 ```
 
-## **Conclusion, Acknowledgements & Resources**
+## **Conclusion**
 You have come to the end of the Google Maps API Workshop.
 We hope this session has helped you gain a practical understanding of how to work with the Google Maps API — from geocoding locations, finding nearby places, calculating distances, to integrating these features into your own Python programs.
 With these tools, you're now equipped to build location-aware applications, explore real-world data, and create more interactive user experiences.
 Feel free to continue experimenting with different endpoints, explore the full range of services offered by the API, and don't hesitate to revisit the workshop materials whenever you need a refresher.
 Thank you for participating, and we look forward to seeing what you build! 🚀
 <br>
+### **Acknowledgements**
 We extend our sincere gratitude to the developers and maintainers of the Python Client for Google Maps Services. Their efforts have been instrumental in enabling seamless integration of Google Maps functionalities into Python applications.
-This open-source library, developed by the community and supported by Google, provides Python interfaces to various Google Maps APIs, including:
-Directions API
-Distance Matrix API
-Elevation API
-Geocoding API
-Geolocation API
-Time Zone API
-Roads API
-Places API
-Maps Static API
-Address Validation API
-The library is licensed under the Apache 2.0 License and is available on GitHub: https://github.com/googlemaps/google-maps-services-python
+This open-source library, developed by the community and supported by Google, provides Python interfaces to various Google Maps APIs, including:<br><br>
+Directions API<br>
+Distance Matrix API<br>
+Elevation API<br>
+Geocoding API<br>
+Geolocation API<br>
+Time Zone API<br>
+Roads API<br>
+Places API<br>
+Maps Static API<br>
+Address Validation API<br><br>
+The library is licensed under the Apache 2.0 License and is available on GitHub: https://github.com/googlemaps/google-maps-services-python<br>
 We also acknowledge the broader community of contributors who have provided documentation, support, and enhancements to this project, making it a valuable resource for developers worldwide.
-<br>
-[Places API Documentation](https://developers.google.com/maps/documentation/places/web-service)
-[Geocoding API Documentation](https://developers.google.com/maps/documentation/geocoding)
-[Distance Matrix API Documentation](https://developers.google.com/maps/documentation/distance-matrix)
+<br><br>
+### **Student Resources**
+[Places API Documentation](https://developers.google.com/maps/documentation/places/web-service)<br>
+[Geocoding API Documentation](https://developers.google.com/maps/documentation/geocoding)<br>
+[Distance Matrix API Documentation](https://developers.google.com/maps/documentation/distance-matrix)<br>
 [Google Maps API Python Documentation](https://googlemaps.github.io/google-maps-services-python/docs/index.html)
+
