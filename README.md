@@ -37,7 +37,7 @@ Before you can start using the Google Maps API, you need to create and configure
 
 ### Step 1: Create a Google Cloud Account
 If you don’t already have a Google Cloud account, you can create one by visiting the [Google Cloud Console](https://console.cloud.google.com/).<br>
-> ⚠️ **Note:** If you are doing the workshop with NYP GDSC, there will be free credits — **Do NOT claim your free credits manually.**
+> ⚠️ **Note:** If you are doing the workshop with NYP GDSC, there will be free credits via a redemption code — **Do NOT claim your free credits manually and follow instructions.**
 
 ### Step 2: Create a New Project
 1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
