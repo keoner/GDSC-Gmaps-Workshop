@@ -20,7 +20,7 @@ Before participating in the Google Maps API Workshop, please ensure the followin
    - A code editor such as **VSCode**, **PyCharm**, or any other of your preference for writing Python code.
    
 2. **Python**
-   - Python version **3.6** or higher. You can download it from the [official Python website](https://www.python.org/downloads/).
+   - Python version **3.6** or higher. You can download it from the [Official Python website](https://www.python.org/downloads/).
 
 3. **Google Maps Python Library**
    - Install the official **Google Maps Python client library** by running the following command in your terminal:
@@ -57,10 +57,10 @@ To use Google Maps services, you need to enable the APIs you'll be using. Hereâ€
 ### Step 4: Claim Your Free Credits Using a Coupon
 If you are doing the workshop with GDSC you will claim the **coupon code** for free credits, follow these steps to redeem it:
 
-1. Go to the [Google Cloud Credits Redemption Page]([https://cloud.google.com/free](https://cloud.google.com/billing/docs/how-to/edu-grants#redeem) page.
+1. Go to the Google Cloud Credits Redemption Page, this will be sent in the discord server.
 2. Enter your First Name & Last Name.
 3. **Enter the coupon code we give you during the workshop**.
-   - Note: This coupon will only work if you use it on the Google Account you specified when you signed up for the event.
+   - Note: This coupon will only work if you use it on the Google Account you specified when you RSVP'd for the event on GDG website.
 4. Your credits have now been successfully claimed. You may continue with the next step
 
    **Note**: You **do not need a billing account** if you're only using the free credits from the coupon.
@@ -90,7 +90,7 @@ If you have any questions or need further assistance, feel free to reach out dur
 import googlemaps
 
 # Initialize the client with the API key
-gmaps = googlemaps.Client(key='your-api-key')
+gmaps = googlemaps.Client(key='YOUR_API_KEY')
 ```
 ##  **Features**
 A list of the key features or functionality the project provides, such as geocoding, distance matrix, places search, etc.
@@ -148,7 +148,7 @@ origin = "1600 Pennsylvania Ave NW, Washington, DC 20500"  # Example origin addr
 destination = "The White House, Washington, DC"  # Example destination address
 # Origin & destination can be either latitude and longitude coordinates or a human-readable address.
 
-distance_result = gmaps.distance_matrix(origins=origin, destinations=destination, mode=driving)
+distance_result = gmaps.distance_matrix(origins=origin, destinations=destination, mode="driving")
 # Mode can be set to walking, bicycling, transit or driving
 distance_info = distance_result['rows'][0]['elements'][0]
 print(f"Distance: {distance_info.get('distance', {}).get('text', 'N/A')}")
