@@ -4,7 +4,7 @@ import googlemaps
 # Initialize Google Maps client
 gmaps = googlemaps.Client(key=api_key.YOUR_API_KEY)
 
-origin = "1600 Pennsylvania Ave NW, Washington, DC 20500"  # Example origin address
+origin = "701 21st St NW, Washington, DC 20052, United States"  # Example origin address
 destination = "The White House, Washington, DC"  # Example destination address
 # Origin & destination can be either latitude and longitude coordinates or a human-readable address.
 
