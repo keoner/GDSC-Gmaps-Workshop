@@ -51,8 +51,8 @@ To use Google Maps services, you need to enable the APIs you'll be using. Hereâ€
 1. In the Google Cloud Console, navigate to **APIs & Services > Library**.
 2. Search for and enable the following APIs (search individually for each):
    - **Geocoding API**
-   - **Places API**
-   - **Distance Matrix API**
+   - **Places API & Places API (New)**
+   - **Distance Matrix API & Routes API**
 
 ### Step 4: Claim Your Free Credits Using a Coupon
 If you are doing the workshop with GDSC you will claim the **coupon code** for free credits, follow these steps to redeem it:
