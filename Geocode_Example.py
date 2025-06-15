@@ -1,12 +1,13 @@
+import api_key
 import googlemaps
 
 # Initialize Google Maps client
-gmaps = googlemaps.Client(key='YOUR_API_KEY')
+gmaps = googlemaps.Client(key=api_key.YOUR_API_KEY)
 
 address = "1600 Pennsylvania Ave NW, Washington, DC 20500"
 
-# Geocode the address
-geocode_result = gmaps.reverse_geocode(address)
+# Geocode the address (human-readable location to coordinates)
+geocode_result = gmaps.geocode(address)
 
 # Output the result
 print("Geocoding Result:")

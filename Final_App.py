@@ -1,7 +1,8 @@
+import api_key
 import googlemaps
 
 # Initialize Google Maps client
-gmaps = googlemaps.Client(key='YOUR_API_KEY')
+gmaps = googlemaps.Client(key=api_key.YOUR_API_KEY)
 
 # Geocode a human-readable location to coordinates
 def geocode_location(location_name):

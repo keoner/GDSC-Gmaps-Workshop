@@ -1,7 +1,8 @@
+import api_key
 import googlemaps
 
 # Initialize Google Maps client
-gmaps = googlemaps.Client(key='YOUR_API_KEY')
+gmaps = googlemaps.Client(key=api_key.YOUR_API_KEY)
 
 origin = "1600 Pennsylvania Ave NW, Washington, DC 20500"  # Example origin address
 destination = "The White House, Washington, DC"  # Example destination address

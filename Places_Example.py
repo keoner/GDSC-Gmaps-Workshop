@@ -1,7 +1,8 @@
+import api_key
 import googlemaps
 
 # Initialize Google Maps client
-gmaps = googlemaps.Client(key='YOUR_API_KEY')
+gmaps = googlemaps.Client(key=api_key.YOUR_API_KEY)
 
 location = (43.0617713, 141.3544507)  # Sapporo, Japan (latitude, longitude)
 radius = 1000  # Search within a 1000-meter radius
